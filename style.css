@@ -1,0 +1,39 @@
+*{  
+    margin: 0; 
+    padding: 0; 
+}
+
+/* sidebar for photo carousel */
+.wrapper .sidebar {
+    position: fixed;
+    left: 0; 
+    width: 25vw;
+    height: 100vh;
+    background-color: #5C5470;
+}
+
+/* main-content area */
+.wrapper .main-content {
+    margin-left: 25vw;
+    width: 75vw;
+    height: 100vh;
+    background-color: #352F44;
+    color: #FAF0E6;
+}
+
+/* introduction - name */
+.wrapper .main-content h1 {
+    padding: 300px 50px 50px 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+
+.socials a i {
+    font-size: 30px;
+    letter-spacing: 10px;
+    color: #FAF0E6;
+}
+
